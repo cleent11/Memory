@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Memory</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale">
+	<style>
+		.a{
+			width: 40%;
+			margin-left: auto;
+    		margin-right: auto;
+		}
+
+		body{
+			background: url("img/fond_ecran.gif");
+			background-size: 100% 100%;
+			margin: 0%;
+  			background-attachment: fixed;
+		}
+
+		.text-center {
+			position:absolute;
+			bottom: 0%;
+			width: 20%;
+			margin-bottom: 0%;
+    		margin-right: 40%;
+    		margin-left: 40%;
+    		text-align: center;
+    		color: white;
+    		background-color: black;
+    		border-radius: 15px 15px 0px 0px;
+			font-size: 0.8em;
+		}
+
+		.in_line{
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+	<table id="jeu" class="a">
+		<tr>
+			<td><img src="img/dos2carte.jpg"/></td>
+			<td><img src="img/dos2carte.jpg"/></td>
+			<td><img src="img/dos2carte.jpg"/></td>
+			<td><img src="img/dos2carte.jpg"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/dos2carte.jpg"/></td>
+			<td><img src="img/dos2carte.jpg"/></td>
+			<td><img src="img/dos2carte.jpg"/></td>
+			<td><img src="img/dos2carte.jpg"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/dos2carte.jpg"/></td>
+			<td><img src="img/dos2carte.jpg"/></td>
+			<td><img src="img/dos2carte.jpg"/></td>
+			<td><img src="img/dos2carte.jpg"/></td>
+		</tr>
+		<tr>
+			<td><img src="img/dos2carte.jpg"/></td>
+			<td><img src="img/dos2carte.jpg"/></td>
+			<td><img src="img/dos2carte.jpg"/></td>
+			<td><img src="img/dos2carte.jpg"/></td>
+		</tr>
+	</table>
+	<strong class="text-center">
+		SCORE : <p class="in_line" id="score"></p>
+	</strong>
+	<script src="js/memory.js"></script>
+</body>
+</html>
